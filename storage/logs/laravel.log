@@ -1,0 +1,42 @@
+[2022-02-21 15:49:03] local.INFO: Hello  
+[2022-02-21 15:49:03] local.INFO: {"Id":"B244D10B-47F0-47E7-A1ED-167E5CF6B965","Code":"admin","DisplayName":"Qu\u1ea3n tr\u1ecb h\u1ec7 th\u1ed1ng","Email":"quan.tran@cict.com.vn","Email_CC":null,"Phone":"0902066030","FailedLoginAttempts":"0","PasswordChangeDate":null,"ForcePasswordChange":null,"LoginStatus":"0","DefaultRedirect":null,"Super":"1","Status":"0","CategoryId":null,"PartnerId":null,"Deleted":"0","CreatedDate":"2022-02-14 15:37:46.860","CreatedBy":null,"ChangedDate":null,"ChangedBy":null,"DepartmentId":null,"AccountId":"B244D10B-47F0-47E7-A1ED-167E5CF6B965"}  
+[2022-02-21 15:49:49] local.INFO:   
+[2022-02-21 15:49:58] local.INFO: 1  
+[2022-02-21 15:50:41] local.INFO: ttyhZEnjJDNBrBKrtoXaKUNwrxqNQ7Ci  
+[2022-02-21 15:51:17] local.INFO:   
+[2022-02-21 15:52:01] local.INFO: {"Id":"A5C7D0FB-4AC6-4067-B878-1D1B778EDFA7","Token":"9MwsmNUq0u9pj44Mi7qryakYOIQ4Vq3i","Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/98.0.4758.102 Safari\/537.36","IP":"127.0.0.1","ValidFrom":null,"ValidTo":"2022-02-21 16:22:01.000","SiteId":"592EC499-4A7B-4116-8904-261A609608A4","Password":"$2y$10$q9gfGxrwxP4HO1yd8s6qNuPvF0yXnB6U.02\/L7N1OkXB7tYHVnJ72","Code":"admin","Status":"0","DisplayName":"Qu\u1ea3n tr\u1ecb h\u1ec7 th\u1ed1ng","Phone":"0902066030","Email":"quan.tran@cict.com.vn","FailedLoginAttempts":"0","ForcePasswordChange":null,"DefaultRedirect":null,"AccountId":"B244D10B-47F0-47E7-A1ED-167E5CF6B965","Super":"1","PartnerId":null}  
+[2022-02-21 15:52:01] local.INFO: {"Id":"A5C7D0FB-4AC6-4067-B878-1D1B778EDFA7","Token":"9MwsmNUq0u9pj44Mi7qryakYOIQ4Vq3i","Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/98.0.4758.102 Safari\/537.36","IP":"127.0.0.1","ValidFrom":null,"ValidTo":"2022-02-21 16:22:01.000","SiteId":"592EC499-4A7B-4116-8904-261A609608A4","Password":"$2y$10$q9gfGxrwxP4HO1yd8s6qNuPvF0yXnB6U.02\/L7N1OkXB7tYHVnJ72","Code":"admin","Status":"0","DisplayName":"Qu\u1ea3n tr\u1ecb h\u1ec7 th\u1ed1ng","Phone":"0902066030","Email":"quan.tran@cict.com.vn","FailedLoginAttempts":"0","ForcePasswordChange":null,"DefaultRedirect":null,"AccountId":"B244D10B-47F0-47E7-A1ED-167E5CF6B965","Super":"1","PartnerId":null,"Roles":[]}  
+[2022-02-22 09:09:23] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "127.0.0.1" is not defined. in D:\CICT\CICT-API\cict-api\vendor\symfony\console\Application.php:669
+Stack trace:
+#0 D:\CICT\CICT-API\cict-api\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('127.0.0.1')
+#1 D:\CICT\CICT-API\cict-api\vendor\symfony\console\Application.php(147): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 D:\CICT\CICT-API\cict-api\vendor\laravel\framework\src\Illuminate\Console\Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\CICT\CICT-API\cict-api\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(131): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\CICT\CICT-API\cict-api\artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2022-02-22 09:09:23] local.ERROR: Command "127.0.0.1" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"127.0.0.1\" is not defined. at D:\\CICT\\CICT-API\\cict-api\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 D:\\CICT\\CICT-API\\cict-api\\vendor\\symfony\\console\\Application.php(235): Symfony\\Component\\Console\\Application->find('127.0.0.1')
+#1 D:\\CICT\\CICT-API\\cict-api\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\CICT\\CICT-API\\cict-api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\CICT\\CICT-API\\cict-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\CICT\\CICT-API\\cict-api\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-02-22 09:39:18] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "127.0.0.1" is not defined. in D:\CICT\CICT-API\cict-api\vendor\symfony\console\Application.php:669
+Stack trace:
+#0 D:\CICT\CICT-API\cict-api\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('127.0.0.1')
+#1 D:\CICT\CICT-API\cict-api\vendor\symfony\console\Application.php(147): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 D:\CICT\CICT-API\cict-api\vendor\laravel\framework\src\Illuminate\Console\Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\CICT\CICT-API\cict-api\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(131): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\CICT\CICT-API\cict-api\artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2022-02-22 09:39:18] local.ERROR: Command "127.0.0.1" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"127.0.0.1\" is not defined. at D:\\CICT\\CICT-API\\cict-api\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 D:\\CICT\\CICT-API\\cict-api\\vendor\\symfony\\console\\Application.php(235): Symfony\\Component\\Console\\Application->find('127.0.0.1')
+#1 D:\\CICT\\CICT-API\\cict-api\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\CICT\\CICT-API\\cict-api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\CICT\\CICT-API\\cict-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\CICT\\CICT-API\\cict-api\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

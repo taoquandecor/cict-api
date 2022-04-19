@@ -1,0 +1,23 @@
+array (
+  'Id' => '51F8BF17-EE4E-4EB3-B3C7-A459260A2D41',
+  'TerminalId' => '3C2AA25F-84A9-4F6B-AAAB-5A14E70CD9DE',
+  'VesselDischargePlanId' => '259E10BB-1230-4B17-BF16-D98A89EE4B48',
+  'ServiceTypeId' => 'AEA56101-C4D9-437E-B4AC-E984B0F8DC24',
+  'destinations' => 
+  array (
+    0 => 
+    array (
+      'DestinationId' => '051FE753-A8D6-45A9-A852-42D2742D7312',
+      'Quantity' => '3000',
+    ),
+    1 => 
+    array (
+      'DestinationId' => 'AA4D27A7-FDFE-4AEF-A1D4-8CAB2E2B3502',
+      'Quantity' => '3000',
+    ),
+    2 => 
+    array (
+      'DestinationId' => '6F64F039-A954-485D-878C-FE0173B98FF7',
+      'Quantity' => '4000',
+    ),
+  ),
